@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/FindJob/static/css/main.b996d3df.css",
+    "main.js": "/FindJob/static/js/main.85fee12a.js",
+    "static/media/Means_Light_Web.otf": "/FindJob/static/media/Means_Light_Web.c356b1109097c25bcd63.otf",
+    "static/media/logo-01.png": "/FindJob/static/media/logo-01.a8038b07cb997c3609a0.png",
+    "static/media/GraphikMedium.otf": "/FindJob/static/media/GraphikMedium.f58d53eb72d7239d4ca8.otf",
+    "static/media/GraphikExtralight.otf": "/FindJob/static/media/GraphikExtralight.02088dd0ef38df2459de.otf",
+    "static/media/GraphikLight.otf": "/FindJob/static/media/GraphikLight.532fcbe7294b886ec93d.otf",
+    "static/media/people.png": "/FindJob/static/media/people.dcf2bf1da7e3365f3fa6.png",
+    "static/media/paper-plane.png": "/FindJob/static/media/paper-plane.dde02e70dd105e38b759.png",
+    "static/media/info.png": "/FindJob/static/media/info.abc2662401cf8a3d9245.png",
+    "static/media/add-user.png": "/FindJob/static/media/add-user.7435162ce9e41e9bbd39.png",
+    "static/media/user.png": "/FindJob/static/media/user.94f2989b847422bf7a0a.png",
+    "static/media/profilePicutre.jpg": "/FindJob/static/media/profilePicutre.cddfc9e36e901f0de6ab.jpg",
+    "static/media/application.png": "/FindJob/static/media/application.ada7dc12f591ea906e97.png",
+    "static/media/instagram .png": "/FindJob/static/media/instagram .77ce932818594cafcc15.png",
+    "static/media/company.png": "/FindJob/static/media/company.9a0ecac5bbc2f0e3eda7.png",
+    "index.html": "/FindJob/index.html",
+    "main.b996d3df.css.map": "/FindJob/static/css/main.b996d3df.css.map",
+    "main.85fee12a.js.map": "/FindJob/static/js/main.85fee12a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b996d3df.css",
+    "static/js/main.85fee12a.js"
+  ]
+}
