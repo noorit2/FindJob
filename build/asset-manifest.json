@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FindJob/static/css/main.b996d3df.css",
-    "main.js": "/FindJob/static/js/main.85fee12a.js",
+    "main.js": "/FindJob/static/js/main.455b1107.js",
     "static/media/Means_Light_Web.otf": "/FindJob/static/media/Means_Light_Web.c356b1109097c25bcd63.otf",
     "static/media/logo-01.png": "/FindJob/static/media/logo-01.a8038b07cb997c3609a0.png",
     "static/media/GraphikMedium.otf": "/FindJob/static/media/GraphikMedium.f58d53eb72d7239d4ca8.otf",
@@ -18,10 +18,10 @@
     "static/media/company.png": "/FindJob/static/media/company.9a0ecac5bbc2f0e3eda7.png",
     "index.html": "/FindJob/index.html",
     "main.b996d3df.css.map": "/FindJob/static/css/main.b996d3df.css.map",
-    "main.85fee12a.js.map": "/FindJob/static/js/main.85fee12a.js.map"
+    "main.455b1107.js.map": "/FindJob/static/js/main.455b1107.js.map"
   },
   "entrypoints": [
     "static/css/main.b996d3df.css",
-    "static/js/main.85fee12a.js"
+    "static/js/main.455b1107.js"
   ]
 }
