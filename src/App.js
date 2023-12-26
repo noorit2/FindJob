@@ -190,7 +190,7 @@ function App() {
 
   const routeDefinition=createRoutesFromElements(
     <Route>
-      <Route path="/" element={<JobSearch joblist={joblist}/>} />
+      <Route path="/FindJob" element={<JobSearch joblist={joblist}/>} />
       <Route path='/Register' element={<Register></Register>} />
       <Route path='/RegisterVerification' element ={<Rgisterver/>}/>
       <Route path='/CompanyRegister' element ={<CompanyRegister/>}/>
