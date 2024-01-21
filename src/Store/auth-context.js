@@ -24,7 +24,7 @@ export const AuthContextProvider=(props)=>{
         const storedData=localStorage.getItem('IsLoggedIn');
         if(storedData==='1'){
           setIsLoggedIn(true);
-          const storedProfile=localStorage.getItem('profile');
+          const uid=localStorage.getItem('profile');
           setProfile(JSON.parse(storedProfile));
         }      
     },[])
