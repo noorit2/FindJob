@@ -33,11 +33,11 @@ const [formIsValid,setFormIsValid]=useState(false);
 const [error,setError]=useState();
 const [showError,setShowError]=useState(false);
 const navigate=useNavigate();
-const inputsValid={
+const inputsValid={                    // check if first and last names aren't empty strings
   firstname:state.firstname.trim() !=='',
   lastname:state.lastname.trim() !=='' ,
 };
-useEffect(()=>{
+useEffect(()=>{      // Validating User input through listening to inputs valid object 
     if(inputsValid.firstname  && inputsValid.lastname ){
     setFormIsValid(true);}
     else{
@@ -45,12 +45,12 @@ useEffect(()=>{
     console.log(formIsValid);
     },[inputsValid]);
    
-const handelsubmit=(e)=>{
+const handelsubmit=(e)=>{              // submit form 
         e.preventDefault();
         navigate('/PersonalProfile');
     }
     
-function onchange(e){
+function onchange(e){   // Changing Reducer Value when user type on field
     const action={
       type:"input",
       input:e.target.name,
@@ -58,14 +58,13 @@ function onchange(e){
     }
     dispatch(action);
   }
-   const imageChangeHandler=(event)=>{
+   const imageChangeHandler=(event)=>{  // Handling Image Changing
    
     let str = event.target.value;
 let n = str.lastIndexOf("\\");
 let result = str.substring(n + 1);
 result="./"+result
-console.log((result));
-setImg(result);
+setImg(result);  
   }
 
   const blurHandler=(e)=>{
