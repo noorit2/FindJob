@@ -12,12 +12,12 @@ const AppliedJobs=()=>{
     const ctx=useContext(AuthContext);
     const [jobs,setJobs]=useState([]);
     const [loading,setLoading]=useState(true);
-    useEffect(()=>{
+    useEffect(()=>{                                // fetching all the jobs
         jobs_list().then((result)=>{
            
             if(result.length>0){
                 setJobs(result.filter((job)=>{
-                    return ctx.profile.appliedJobs.includes(job.id);
+                    return ctx.profile.appliedJobs.includes(job.id);  //filtering to only the jobs user has applied to
                 }));
                 setLoading(false);
             }
@@ -30,7 +30,7 @@ const AppliedJobs=()=>{
     },[ctx.profile])
     
     const navigate=useNavigate();
-    const searchHandler=(searchValue)=>{
+    const searchHandler=(searchValue)=>{    // to handle any search done within the navbar
         navigate(`/?value=${searchValue}`);
        }
 if(loading){
