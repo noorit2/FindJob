@@ -14,27 +14,13 @@ function UserProfile(){
  useEffect(()=>{
 
  },[])
-    const ctx=useContext(AuthContext);
+    const ctx=useContext(AuthContext);  // getting user info from the context provider
   const onClickHandler=()=>{
 navigate('/EditUserProfile');
 
   }
 
     return(
-        // <>
-        // <Navbar></Navbar>
-        // <main className={styles.mainContainer}>
-        // <div className={styles.secondaryContainer}>
-        //     <div className={styles.mainInfo}>
-        //  <img src={ctx.profile.picture} alt="profile"/>
-        //  <p>{ctx.profile.firstname +' '+ ctx.profile.lastname}</p>
-        //  <p><img src={location} alt="location icon"/> {ctx.profile.location}</p>
-        //  <Button className={styles.button}>Edit Profile</Button>
-        //  </div>
-
-        // </div>
-        // </main>
-        // </>
         <div>
             <Navbar></Navbar>
             <div className={styles.userprofile}>
